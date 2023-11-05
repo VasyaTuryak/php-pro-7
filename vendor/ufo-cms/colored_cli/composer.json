@@ -1,0 +1,19 @@
+{
+    "name": "ufo-cms/colored_cli",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UfoCms\\ColoredCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Maystrenko"
+        }
+    ],
+    "minimum-stability": "dev"
+}

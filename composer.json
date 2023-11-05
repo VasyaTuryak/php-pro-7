@@ -1,0 +1,28 @@
+{
+    "name": "php-pro/app",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.*",
+        "psr/container": "*",
+        "ufo-cms/colored_cli": "^1.0",
+        "monolog/monolog": "3.*",
+        "nesbot/carbon": "^2.69",
+        "illuminate/database": "v9.*",
+        "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/classes",
+            "src/Exception",
+            "src/Interface",
+            "src/Model"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alex Maystrenko"
+        }
+    ],
+    "minimum-stability": "stable"
+}
